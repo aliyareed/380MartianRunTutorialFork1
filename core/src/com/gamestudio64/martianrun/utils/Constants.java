@@ -10,8 +10,8 @@ import com.badlogic.gdx.physics.box2d.World;
  */
 public class Constants {
     private Constants(){}
-    public static final int APP_WIDTH = 800;
-    public static final int APP_HEIGHT = 480;
+    public static final int APP_WIDTH = 1920;
+    public static final int APP_HEIGHT = 1080;
 
     public static final Vector2 WORLD_GRAVITY = new Vector2(0, -10);
 

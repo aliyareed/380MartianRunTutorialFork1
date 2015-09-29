@@ -60,9 +60,7 @@ public class GameStage extends Stage implements ContactListener {
 
     @Override
     public boolean touchDown(int x, int y, int pointer, int button){
-
         //Need to get the actual coordinates
-
         translateScreenToWorldCoordinates(x, y);
 
         if(rightSideTouched(touchPoint.x, touchPoint.y)){
