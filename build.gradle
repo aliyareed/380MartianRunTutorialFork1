@@ -10,7 +10,7 @@ buildscript {
         classpath 'org.robovm:robovm-gradle-plugin:1.6.0'
     }
 }
-
+System.out.println("Hello, World!");
 allprojects {
     apply plugin: "eclipse"
     apply plugin: "idea"
